@@ -1,0 +1,445 @@
+:root {
+  --brown: #8a6853;
+  --semi-black: #1d1305;
+  --shadow: 0 2px 2px rgb(0, 0, 0/0.5);
+  --text-shadow: 0 0 10px white, 0 0 20px rgb(249, 193, 141), 0 0 30px rgb(196, 139, 17), 0 0 40px rgb(181, 83, 9), 0 0 50px #1d1305, 0 0 60px rgba(255, 187, 0, 0.777), 0 0 70px white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Cormorant Garamond", sans-serif;
+  /* background-image: url(assets/bg_bunga3.jpeg); */
+}
+
+.arab {
+  font-size: 1.6rem;
+  font-family: "Amiri";
+  line-height: 3.5rem;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.arti {
+  font-size: 1rem;
+  font-family: "Amiri";
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.ref {
+  font-size: 1rem;
+  font-family: "Amiri";
+  font-style: italic;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: var(--semi-black);
+  background-image: url(assets/bg_bunga3.PNG);
+  background-size: 100%;
+}
+
+.hero .card {
+  background-color: var(--semi-black);
+  opacity: 0.5;
+}
+
+.hero h4 {
+  font-size: 1.6rem;
+  color: var(--brown);
+  font-family: "Cookie", cursive;
+  /* opacity: 1 !important; */
+}
+
+.hero h1 {
+  font-size: 6rem;
+  text-shadow: var(--text-shadow);
+  font-family: "Alex Brush";
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero a {
+  color: var(--semi-black);
+  background-color: goldenrod;
+  font-size: 1.2rem;
+}
+
+.hero a:hover {
+  background-color: white;
+  color: goldenrod;
+}
+
+/* @keyframes heroIlang {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
+  }
+} */
+
+/* section */
+
+.satu {
+  min-height: 100vh;
+  /* background-color: whitesmoke; */
+  background-image: url(assets/bg_bunga3.PNG);
+  background-size: 100%;
+  /* opacity: 0.5; */
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+}
+
+.satu h4 {
+  font-size: 2rem;
+  font-family: "Cookie", cursive;
+  color: var(--brown);
+}
+
+.satu h1 {
+  font-family: "Alex Brush";
+  font-size: 3rem;
+  color: var(--semi-black);
+  text-shadow: var(--text-shadow);
+}
+
+.satu img {
+  /* border: 4px double wheat !important; */
+  box-shadow: 5px 5px 10px 10px var(--brown);
+}
+
+.dua {
+  background-image: none;
+  background-color: var(--semi-black);
+  color: wheat;
+}
+
+.dua h1 {
+  font-size: 4rem;
+  font-family: "Cormorant Garamond", serif;
+  color: linen;
+  margin: 50px;
+}
+
+.tiga {
+  background-image: url(assets/bg_bunga3.PNG);
+  background-size: 100%;
+}
+
+.tiga .couple {
+  margin-top: 100px;
+}
+
+.tiga h2 {
+  font-family: "Cookie", cursive;
+  font-size: 2.4rem;
+  color: var(--semi-black);
+}
+
+.tiga h1 {
+  font-family: "Alex Brush";
+}
+
+.tiga .and img {
+  width: 100px;
+  margin: 30px;
+}
+
+.tiga .mempelai img {
+  width: 150px;
+  margin-bottom: 30px;
+  border-radius: 60px;
+  /* border: 2px solid goldenrod; */
+  /* border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px; */
+  box-shadow: 5px 5px 10px 10px var(--brown);
+}
+
+.tiga .bismillah {
+  font-family: "Amiri";
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.7;
+}
+
+.tiga p {
+  font-size: 1.2rem;
+}
+
+.tiga .parents {
+  font-size: 1rem;
+  font-family: "Cormorant Garamond", sans-serif;
+}
+
+.empat {
+  background-color: var(--semi-black);
+  color: whitesmoke;
+}
+
+.empat .note {
+  background-color: wheat !important;
+  color: var(--semi-black);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.empat .card {
+  background-color: linen;
+  border: 4px solid wheat;
+}
+
+.empat .tgl {
+  border: 2px double wheat !important;
+  color: white;
+  width: auto;
+  padding: 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.divider {
+  border: 1px dashed white;
+}
+
+.empat .tgl p {
+  font-style: oblique 1;
+  font-size: 2.5rem;
+  /* margin: 5px; */
+  text-shadow: var(--text-shadow);
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.empat h1 {
+  font-family: "Cookie", cursive;
+  font-size: 4rem;
+  margin: 50px;
+  color: antiquewhite;
+}
+
+.empat .lokasi h4 {
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.empat .lokasi p {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.empat .lokasi .peta {
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.empat .lokasi iframe {
+  border: 4px double white;
+  /* box-shadow: 0 4px 8px 0 rgb(249, 247, 247), 0 6px 20px 0 rgb(246, 244, 244); */
+}
+
+.syiar {
+  /* background-color: linen; */
+  background-image: url(assets/bg_bunga3.PNG);
+  background-size: 100%;
+  border: 4px solid wheat;
+}
+
+.syiar h1 {
+  font-family: "Cookie", cursive;
+  font-size: 4rem;
+  color: var(--brown);
+  margin: 50px;
+}
+
+.syiar .kegiatan {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.syiar a {
+  background-color: var(--brown);
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.lima {
+  background-color: var(--semi-black);
+  /* background-image: url(assets/bg_bunga3.PNG); */
+}
+
+.lima .card {
+  background-color: linen;
+}
+
+.lima .adab {
+  font-size: 1.2rem;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.lima h1 {
+  font-family: "Cookie", cursive;
+  font-size: 4rem;
+  margin: 50px;
+}
+.lima img {
+  width: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.enam {
+  background-image: url(assets/bg_bunga3.PNG);
+  background-size: 100%;
+}
+
+.enam .doa .card {
+  border: 2px solid lightsalmon;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 10px;
+  background-color: rgb(247, 242, 241, 0.3);
+}
+
+.enam .doa h1 {
+  color: salmon;
+  font-family: "Cookie", cursive;
+  font-size: 4rem;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.enam .end .card {
+  background-color: rgba(241, 227, 197, 0.3);
+  border: 2px solid burlywood;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.enam .end h1 {
+  font-size: 6rem;
+  color: #8a6853;
+}
+
+.enam .end p {
+  font-size: 1.1rem;
+  color: var(--semi-black);
+}
+
+.end img {
+  /* width: 150px; */
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  /* border: 2px solid goldenrod; */
+  /* box-shadow: 5px 5px 10px 10px beige; */
+}
+
+.end .kata_rima {
+  margin-top: 20px;
+}
+
+.enam .salam h2 {
+  font-family: "Cookie", cursive;
+  font-size: 2.4rem;
+  padding: 50px;
+  /* 
+   font-family: "Cookie", cursive;
+  font-size: 2.4rem;
+  color: var(--semi-black); */
+  /* margin-bottom: 50px; */
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  cursor: pointer;
+  color: bisque;
+  mix-blend-mode: difference;
+  opacity: 0.6;
+}
+
+.footer {
+  background-color: bisque;
+  height: 150px;
+  font-size: 1rem;
+  font-family: "Amiri", sans-serif;
+}
+
+/* .hero { */
+/* overflow: hidden; */
+/* color: #000;   
+  line-height: 50px; */
+
+/* transition: all 0.5s ease-out; */
+/* height: auto; */
+/* } */
+
+/* .hero:target { */
+/* height: 0;
+  overflow: hidden; */
+/* display: hidden; */
+/* } */
+
+/* Zoom-in Zoom-out*/
+
+/* Extra Large */
+/* @media (max-width: 1200px) {
+  .tiga .and {
+    transform: translateX(-50%) translateY(85px);
+  }
+} */
+
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 70px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+}
+
+/* mobile-phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 30px;
+    margin: 3px;
+  }
+}
