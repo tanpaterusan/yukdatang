@@ -35,6 +35,7 @@ simplyCountdown(".simply-countdown", {
 // tombol buka + audio
     const rootElement = document.querySelector(":root");
     const hero = document.getElementById('hero');
+    const satu = document.getElementById('satu');
     const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
     const audioIcon = document.querySelector('.audio-icon');
     const song = document.querySelector('#song');
@@ -54,6 +55,7 @@ simplyCountdown(".simply-countdown", {
       }
       rootElement.style.scrollBehavior = 'smooth';
       playAudio();
+      ilang();
     }
 
     function playAudio() {
@@ -63,6 +65,10 @@ simplyCountdown(".simply-countdown", {
       song.play();
 
       isPlaying = 'true';
+    }
+
+    function ilang() {
+      window.scrollTo(0, document.getElementById('satu').offsetTop)
     }
 
     audioIconWrapper.onclick = function () {
