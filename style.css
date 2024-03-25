@@ -142,8 +142,9 @@ body {
 }
 
 .tiga .and img {
-  width: 100px;
+  width: 85px;
   margin: 30px;
+  position: center;
 }
 
 .tiga .mempelai img {
@@ -207,7 +208,7 @@ body {
 
 .empat .tgl p {
   font-style: oblique 1;
-  font-size: 2.5rem;
+  font-size: 2rem;
   /* margin: 5px; */
   text-shadow: var(--text-shadow);
   margin-top: 50px;
@@ -290,7 +291,7 @@ body {
   margin: 50px;
 }
 .lima img {
-  width: 100px;
+  width: 70px;
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 0;
@@ -423,16 +424,24 @@ body {
     padding: 60px;
     margin: 5px;
   }
+
+  .tiga .and img {
+    width: 60px;
+  }
 }
 
 /* mobile-phone */
 @media (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 65%;
   }
   .simply-countdown > .simply-section {
     padding: 30px;
     margin: 3px;
+  }
+
+  .tiga .and img {
+    width: 45px;
   }
 }
 
