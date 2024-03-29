@@ -99,6 +99,7 @@ body {
 
 .satu h1 {
   font-family: "Alex Brush";
+  /* font-family: cursive; */
   font-size: 3rem;
   color: var(--semi-black);
   text-shadow: var(--text-shadow);
@@ -138,7 +139,7 @@ body {
 }
 
 .tiga h1 {
-  font-family: "Alex Brush";
+  font-family: "Sacramento", cursive;
 }
 
 .tiga .and img {
@@ -308,6 +309,7 @@ body {
   border-top-right-radius: 50%;
   padding: 10px;
   background-color: rgb(247, 242, 241, 0.3);
+  box-shadow: 5px 5px 10px 10px var(--brown);
 }
 
 .enam .doa h1 {
@@ -324,6 +326,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
+  box-shadow: 5px 5px 10px 5px var(--brown);
 }
 
 .enam .end h1 {
